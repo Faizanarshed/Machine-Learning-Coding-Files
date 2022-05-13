@@ -1,6 +1,6 @@
 digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
-edge [fontname="helvetica"] ;
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
 0 [label="age <= 89.1\ngini = 0.489\nsamples = 241\nvalue = [163, 33, 45]\nclass = Biryani", fillcolor="#efb388"] ;
 1 [label="age <= 87.75\ngini = 0.507\nsamples = 217\nvalue = [143, 32, 42]\nclass = Biryani", fillcolor="#f0b68d"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
